@@ -1,0 +1,65 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="js/lightbox/lightbox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Interactive Photo Gallery</title>
+</head>
+<body>
+  <div>
+    <!-- Search -->
+    <div class="container">
+      <input type="text" id="search" name="search-bar" placeholder="Search">
+    </div>
+    <!-- Thumbnail Gallery -->
+    <div class="container">
+      <a href="photos/01.jpg" data-lightbox="gallery" data-title="Hey Bales" data-alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields."></a>
+        <img src="photos/thumbnails/01.jpg" data-lightbox="gallery" data-title="Hey Bales" alt="Hay Bales">
+
+      <a href="photos/02.jpg" data-lightbox="gallery" data-title="Lake" data-alt="The lake was so calm today. We had a great view of the snow on the mountains from here."></a>
+        <img src="photos/thumbnails/02.jpg" alt="Lake">
+
+      <a href="photos/03.jpg" data-lightbox="gallery" data-title="Canyon" data-alt="I hiked to the top of the mountain and got this picture of the canyon and trees below."></a>
+        <img src="photos/thumbnails/03.jpg" alt="Canyon">
+
+      <a href="photos/04.jpg" data-lightbox="gallery" data-title="Iceberg" data-alt="It was amazing to see an iceberg up close, it was so cold but didn’t snow today."></a>
+        <img src="photos/thumbnails/04.jpg" alt="">
+
+      <a href="photos/05.jpg" data-lightbox="gallery" data-title="Desert" data-alt="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons."></a>
+        <img src="photos/thumbnails/05.jpg" alt="">
+
+      <a href="photos/06.jpg" data-lightbox="gallery" data-title="Fall" data-alt="Fall is coming, I love when the leaves on the trees start to change color."></a>
+        <img src="photos/thumbnails/06.jpg" alt="">
+
+      <a href="photos/07.jpg" data-lightbox="gallery" data-title="Plantation" data-alt="I drove past this plantation yesterday, everything is so green!"></a>
+        <img src="photos/thumbnails/07.jpg" alt="">
+
+      <a href="photos/08.jpg" data-lightbox="gallery" data-title="Dunes" data-alt="My summer vacation to the Oregon Coast. I love the sandy dunes!"></a>
+        <img src="photos/thumbnails/08.jpg" alt="">
+
+      <a href="photos/09.jpg" data-lightbox="gallery" data-title="Countryside Lane" data-alt="We enjoyed a quiet stroll down this countryside lane."></a>
+        <img src="photos/thumbnails/09.jpg" alt="Countryside Lane">
+
+      <a href="photos/10.jpg" data-lightbox="gallery" data-title="Sunset" data-alt="Sunset at the coast! The sky turned a lovely shade of orange."></a>
+        <img src="photos/thumbnails/10.jpg" alt="Sunset">
+
+      <a href="photos/11.jpg" data-lightbox="gallery" data-title="Cave" data-alt="I did a tour of a cave today and the view of the landscape below was breathtaking."></a>
+        <img src="photos/thumbnails/11.jpg" alt="Cave">
+
+      <a href="photos/12.jpg" data-lightbox="gallery" data-title="Bluebells" data-alt="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in."></a>
+        <img src="photos/thumbnails/12.jpg" alt="Bluebells">
+    </div>
+  </div>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/lightbox/lightbox.js"></script>
+  <script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
+</script>
+</body>
+</html>
